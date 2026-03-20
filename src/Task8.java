@@ -1,2 +1,14 @@
+// Yesmagzam Sultan IT-2502
+import java.util.Scanner;
 public class Task8 {
+    public static boolean isTsifry(String s, int index) {
+        if (index == s.length()) return true;
+        if (!Character.isDigit(s.charAt(index))) return false;
+        return isTsifry(s, index + 1);
+    }
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        String s = sc.nextLine();
+        System.out.println(isTsifry(s, 0) ? "Yes" : "No");
+    }
 }
