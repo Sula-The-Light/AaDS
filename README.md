@@ -43,21 +43,21 @@ At this problem , i had to add a recursive function *isPrime* to check divisibil
 *n % i == 0* checks if a divisor exists
 *i * i > n* executes optimization to stop at √n
 *i + 1* moves to next divisor
-If no divisor is found before √n, the number is prime.The function increases the divisor step by step and stops when it faces a condition. This approach makes checking all possible divisors without using loops simple.
+If no divisor is found before √n, the number is prime. The function increases the divisor step by step and stops when it faces a condition. This approach makes checking all possible divisors without using loops simple.
 
 
 ## Task 3 - Prime (2)
 
 ![Task 3 (2) ](https://github.com/Sula-The-Light/AaDS/blob/main/Task3%20(2).png)
 
-It's just an example of a composite number
+It's just an example of a composite number.
 
 
 ## Task 4 — Factorial
 
 ![Task 4 ](https://github.com/Sula-The-Light/AaDS/blob/main/Task%204.png)
 
-The 4th task was the easiest one , because I just implemented a recursive function *Fact* using the formula n! = n × (n-1)! and it took me a short time to write everything. The base case ensures the recursion stops correctly. This method reduces the complexity of repeated multiplication.
+The 4th task was the easiest one , because I just implemented a recursive function *Fact* using the formula *n! = n × (n-1)!* and it took me a short time to write everything. The base case ensures the recursion stops correctly. This method reduces the complexity of repeated multiplication.
 
 
 # Part 2 — Sequences
@@ -81,14 +81,14 @@ This is just an example with another number.
 
 ![Task 6](https://github.com/Sula-The-Light/AaDS/blob/main/Task6.png)
 
-Now i used a recursive function power(int a, int n) to compute exponentiation and *return a * power(a, n - 1)* , which multiplies base number repeatedly 'till the base case is reached. This simplifies repeated multiplication without loops.
+The aim of this task is to multiply the base number repeatedly. I used a recursive function *P(int a, int n)* to compute exponentiation and *return a * power(a, n - 1)* , which multiplies base number again and again 'till the base case is reached.
 
 
 ## Task 7 — Reverse
 
 ![Task 7](https://github.com/Sula-The-Light/AaDS/blob/main/Task7.png)
 
-I used a recursive function *revPrint(int n, Scanner sc)* to read and print values.
+I've added a recursive function *revPrint(int n, Scanner sc)* to read and print values.
 The key idea was to print after the recursive call, which automatically reverses the order.
 This eliminates the need for additional arrays.
 
@@ -99,7 +99,7 @@ This eliminates the need for additional arrays.
 
 ![Task 8 (1) ](https://github.com/Sula-The-Light/AaDS/blob/main/Task8%20(1).png)
 
-I created a recursive function isDigits(String s, int index) to check each character. The function uses Character.isDigit() to simplify validation.
+I created a recursive function *isTsifry(String s, int index)* to check each character. The function uses Character.isDigit() to simplify validation.
 Recursion allows checking the string step by step.
 
 
@@ -107,31 +107,31 @@ Recursion allows checking the string step by step.
 
 ![Task 8 (2) ](https://github.com/Sula-The-Light/AaDS/blob/main/Task8%20(2).png)
 
-Just another input
+One more example
 
 ## Task 9 — Length (1)
 
 ![Task 9 (1) ](https://github.com/Sula-The-Light/AaDS/blob/main/Task9%20(1).png)
 
-I used a recursive function length(String s) and substring() to reduce the string size. Each recursive call removes one character and adds 1 to the result. This approach replaces iteration completely.
+I used a recursive function *Dlina(String s)* and *substring()* to reduce the string size. Each recursive call removes one character and adds 1 to the result. This approach replaces iteration completely.
 
 ## Task 9 — Length (2)
 
 ![Task 9 (2) ](https://github.com/Sula-The-Light/AaDS/blob/main/Task9%20(2).png)
 
-Just another ex
+Yet another sample
 
 ## Task 10 — GCD (1)
 
 ![Task 10 (1) ](https://github.com/Sula-The-Light/AaDS/blob/main/Task10%20(1).png)
 
-I implemented the Euclidean algorithm using recursion in gcd(int a, int b). The function repeatedly reduces the problem using modulo operation. This method is efficient and avoids complex calculations.
+I implemented the Euclidean algorithm using recursion in *GCD(int a, int b)*. The function repeatedly reduces the problem using modulo operation. This method is efficient and avoids complex calculations.
 
 ## Task 10 — GCD (2)
 
 ![Task 10 (2) ](https://github.com/Sula-The-Light/AaDS/blob/main/Task10%20(2).png)
 
-Just another ex
+Example with another value
 
 ## Conclusion
 In this assignment, I learned how recursion works and how to apply it to different types of problems. I understood the importance of base cases and recursive calls.
