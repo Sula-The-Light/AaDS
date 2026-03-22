@@ -1,15 +1,17 @@
 // Yesmagzam Sultan IT-2502
 import java.util.Scanner;
 public class Task7 {
-    public static void reversePrint(int n, Scanner sc) {
+    public static void revPrint(int n, Scanner sc) {
         if (n == 0) return;
         int x = sc.nextInt();
-        reversePrint(n - 1, sc);
+        revPrint(n - 1, sc);
         System.out.print(x + " ");
     }
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int count = sc.nextInt();
-        reversePrint(count, sc);
+        System.out.print("How many numbers? Write them here -> ");
+        int m = sc.nextInt();
+        System.out.print("Enter " + m + " numbers: ");  // write numbers with a space
+        revPrint(m, sc);
     }
 }
