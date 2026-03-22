@@ -24,40 +24,31 @@ Each task is implemented in a separate class:
 ## 🔢 Part 1 — Numbers
 
 Task 1 — Print Digits
-(скрин сюда)
 ![Task 1 ](https://github.com/Sula-The-Light/AaDS/blob/main/Task1.png)
 
 Task 2 — Average
-(скрин сюда)
+![Task 2 ](https://github.com/Sula-The-Light/AaDS/blob/main/Task2.png)
 
 Task 3 — Prime
-(скрин сюда)
 
 Task 4 — Factorial
-(скрин сюда)
 
 ## 🔁 Part 2 — Sequences
 
 Task 5 — Fibonacci
-(скрин сюда)
 
 Task 6 — Power
-(скрин сюда)
 
 Task 7 — Reverse
-(скрин сюда)
 
 
 ## 🔤 Part 3 — Strings
 
 Task 8 — Check digits
-(скрин сюда)
 
 Task 9 — Length
-(скрин сюда)
 
 Task 10 — GCD
-(скрин сюда)
 
 
 ## 🧠 Conclusion
