@@ -27,7 +27,7 @@ Each task is implemented in a separate class:
 
 ![Task 1 ](https://github.com/Sula-The-Light/AaDS/blob/main/Task1.png)
 
-Here , i used a recursive function printTsifry(int n) to simplify the process of separating digits.
+Here , i used a recursive function *printTsifry* to simplify the process of separating digits.
 I've applied division (n / 10) to reduce the number and modulo (n % 10) to extract each digit.
 This helped me avoid loops and print digits in the correct order.
 
@@ -35,20 +35,33 @@ This helped me avoid loops and print digits in the correct order.
 
 ![Task 2 ](https://github.com/Sula-The-Light/AaDS/blob/main/Task2.png)
 
+I created another recursive function *sum* to find the total sum of the array.
+This allowed me to avoid loops and reduce the problem step by step.
+Then i calculated the average by dividing the result by the number of elements.
 
 ## Task 3 — Prime (1)
 
 ![Task 3 (1) ](https://github.com/Sula-The-Light/AaDS/blob/main/Task3%20(1).png)
+
+At this task , i had to use a recursive function *isPrime* to check divisibility.
+The function increases the divisor step by step and stops when it faces a condition.
+This approach makes checking all possible divisors without using loops simple.
 
 
 ## Task 3 - Prime (2)
 
 ![Task 3 (2) ](https://github.com/Sula-The-Light/AaDS/blob/main/Task3%20(2).png)
 
+It's just an example of a composite number
+
 
 ## Task 4 — Factorial
 
 ![Task 4 ](https://github.com/Sula-The-Light/AaDS/blob/main/Task%204.png)
+
+Task 4 was an easy part , because I just implemented a recursive function *Fact* using the formula n! = n × (n-1)! and it took me a short time to write everything.
+The base case ensures the recursion stops correctly.
+This method reduces the complexity of repeated multiplication.
 
 
 # Part 2 — Sequences
@@ -57,10 +70,15 @@ This helped me avoid loops and print digits in the correct order.
 
 ![Task 5 (1) ](https://github.com/Sula-The-Light/AaDS/blob/main/Task5%20(1).png)
 
+This time , I'm about to create *Fibonacci Sequence* which is about to make a calculation where each value is calculated from previous ones.
+This approach follows the definition of the *Sequence* and avoids manual iteration.
+
 
 ## Task 5 — Fibonacci (2)
 
 ![Task 5 (1) ](https://github.com/Sula-The-Light/AaDS/blob/main/Task5%20(2).png)
+
+This is just an example with another number
 
 
 ## Task 6 — Power
