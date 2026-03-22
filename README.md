@@ -25,9 +25,7 @@ Each task is implemented in a separate class:
 
 Task 1 — Print Digits
 (скрин сюда)
-![Task1](<img width="1325" height="912" alt="Task1" src="https://github.com/user-attachments/assets/02b52a2a-1c58-4c70-ae36-d4ddc4c12251" />
-)
-
+https://github.com/Sula-The-Light/AaDS/blob/main/Task1.png
 
 Task 2 — Average
 (скрин сюда)
