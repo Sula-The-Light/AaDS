@@ -27,6 +27,9 @@ Each task is implemented in a separate class:
 
 ![Task 1 ](https://github.com/Sula-The-Light/AaDS/blob/main/Task1.png)
 
+Here , i used a recursive function printTsifry(int n) to simplify the process of separating digits.
+I've applied division (n / 10) to reduce the number and modulo (n % 10) to extract each digit.
+This helped me avoid loops and print digits in the correct order.
 
 ## Task 2 — Average
 
