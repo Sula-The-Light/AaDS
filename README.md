@@ -7,7 +7,7 @@ Objective :
 This assignment focuses on understanding and applying recursion in Java.  
 All problems are solved using recursion only (no loops allowed).
 
-📂 Project Structure
+Project Structure
 Each task is implemented in a separate class:
 
 - Task1.java — Print digits
@@ -21,7 +21,7 @@ Each task is implemented in a separate class:
 - Task9.java — Count characters
 - Task10.java — GCD
 
-# 🔢 Part 1 — Numbers
+# Part 1 — Numbers
 
 ## Task 1 — Print Digits
 
@@ -48,7 +48,7 @@ Each task is implemented in a separate class:
 ![Task 4 ](https://github.com/Sula-The-Light/AaDS/blob/main/Task%204.png)
 
 
-# 🔁 Part 2 — Sequences
+# Part 2 — Sequences
 
 ## Task 5 — Fibonacci (1)
 
@@ -70,7 +70,7 @@ Each task is implemented in a separate class:
 ![Task 7](https://github.com/Sula-The-Light/AaDS/blob/main/Task7.png)
 
 
-# 🔤 Part 3 — Strings
+# Part 3 — Strings
 
 ## Task 8 — Check digits (1)
 
@@ -102,7 +102,7 @@ Each task is implemented in a separate class:
 ![Task 10 (2) ](https://github.com/Sula-The-Light/AaDS/blob/main/Task10%20(2).png)
 
 
-## 🧠 Conclusion
+## Conclusion
 In this assignment, I learned how recursion works and how to apply it to different types of problems.  
 I understood the importance of base cases and recursive calls.
 
